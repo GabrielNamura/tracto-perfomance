@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel='stylesheet' href='./css.css' type='text/css'/>
+<link rel="shortcut icon" href="./favicon (1).ico" />
+
+</head>
+
+<body class="Tracto Perfomance">
+
+<div id="fb-root"></div>
+
+
+    <main class="internal-calculators container">
+    
+        <div class="row">
+         <header>
+         <img class="logo-tracto" src="./IMG/LOGO TRACTO PERFOMANCE.png" >
+         </header>
+
+            <section class="posts col-2">
+                <div class="calc pace-calc">
+                    <div class="coll-left">
+                        <div class="icon pace-icon"><span></span></div>
+                        <p>PACE</p>
+                    </div>
+
+                    <div class="coll-right">
+                        <div class="cell-calc cell-1">
+                            <h4>Encontre seu ritmo conforme o tempo e a distância percorrida </h4>
+                                                    </div>
+
+                        <div class="cell-calc cell-2">
+                            <div class="row-calc">
+                                <span class="c-label">TEMPO:</span>
+                                <div class="inputs">
+                                    <input type="number" maxlength="2" class="time-input hours" min="0" placeholder="HH"/>
+                                    <span class="spacer">:</span>
+                                    <input type="number" maxlength="2" class="time-input minutes" min="0" placeholder="MM"/>
+                                    <span class="spacer">:</span>
+                                    <input type="number" maxlength="2" class="time-input seconds" min="0" placeholder="SS"/>
+                                </div>
+                            </div>
+
+                            <div class="row-calc">
+                                <span class="c-label">DISTÂNCIA:</span>
+
+                                <div class="inputs">
+                                    <input type="number" maxlength="2" class="full-input km" placeholder="KM"/>
+                                </div>
+                            </div>
+
+                            <div class="row-calc">
+                                <button class="submit-button" data-track-category="calculadoras" data-track-event="calcular" data-track-label="pace">CALCULAR</button>
+                            </div>
+                        </div>
+
+                        <div class="cell-calc cell-3 last">
+                            <span class="result-label">RESULTADO:</span>
+                            <p class="result-info"><span class="result-number">00:00</span> <span class="result-type">MIN/KM</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="calc imc-calc">
+                    <div class="coll-left">
+                        <div class="icon imc-icon"><span></span></div>
+                        <p>IMC</p>
+                    </div>
+
+                    <div class="coll-right">
+                        <div class="cell-calc cell-1">
+                            <h4>Calcule seu índice de massa corporal (IMC) e descubra se está no peso ideal</h4>
+                                                    </div>
+
+                        <div class="cell-calc cell-2">
+                            <div class="form-calc">
+                                <div class="row-calc">
+                                    <span class="c-label">ALTURA:</span>
+
+                                    <div class="inputs">
+                                        <input type="number" maxlength="2" class="time-input height" min="0" placeholder="MM"/>
+                                        <span class="spacer no-text">:</span>
+                                        <input type="number" maxlength="2" class="time-input centimeters" min="0" placeholder="CM"/>
+                                    </div>
+                                </div>
+
+                                <div class="row-calc">
+                                    <span class="c-label">PESO:</span>
+                                    <div class="inputs">
+                                        <input type="number" maxlength="2" class="full-input weight" placeholder="KG"/>
+                                    </div>
+                                </div>
+
+                                <div class="row-calc">
+                                    <button class="submit-button" data-track-category="calculadoras" data-track-event="calcular" data-track-label="imc">CALCULAR</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cell-calc cell-3 last">
+                            <span class="result-label">RESULTADO:</span>
+                            <p class="result-info"><span class="result-number">00</span> <span class="result-type">IMC</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="calc time-pace-calc">
+                    <div class="coll-left">
+                        <div class="icon time-pace-icon"><span></span></div>
+                        <p>TEMPO DE PROVA</p>
+                    </div>
+
+                    <div class="coll-right">
+                        <div class="cell-calc cell-1">
+                            <h4>Estime qual vai ser seu resultado em uma corrida conforme o pace</h4>
+                                                    </div>
+
+                        <div class="cell-calc cell-2">
+                            <div class="form-calc">
+                                <div class="row-calc">
+                                    <span class="c-label">PACE:</span>
+
+                                    <div class="inputs">
+                                        <input type="number" maxlength="2" class="time-input minutes" min="0" placeholder="MM"/>
+                                        <span class="spacer">:</span>
+                                        <input type="number" maxlength="2" class="time-input seconds" min="0" placeholder="SS"/>
+                                    </div>
+                                </div>
+
+                                <div class="row-calc">
+                                    <span class="c-label">DISTÂNCIA:</span>
+
+                                    <div class="inputs">
+                                        <input type="number" maxlength="2" class="full-input km" min="0" placeholder="KM"/>
+                                    </div>
+                                </div>
+
+                                <div class="row-calc">
+                                    <button class="submit-button" data-track-category="calculadoras" data-track-event="calcular" data-track-label="tempo-por-pace">CALCULAR</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cell-calc cell-3 last">
+                            <span class="result-label">RESULTADO:</span>
+                            <p class="result-info"><span class="result-number">00:00:00</span> <span class="result-type">HH:MM:SS</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="calc calories-calc">
+                    <div class="coll-left">
+                        <div class="icon calories-icon"><span></span></div>
+                        <p>CALORIAS</p>
+                    </div>
+
+                    <div class="coll-right">
+                        <div class="cell-calc cell-1">
+                            <h4>Saiba qual é seu gasto energético médio em uma corrida</h4>
+                                                    </div>
+
+                        <div class="cell-calc cell-2">
+                            <div class="form-calc">
+                                <div class="row-calc">
+                                    <span class="c-label">PACE:</span>
+
+                                    <div class="inputs">
+                                        <div class="select-container" data-value="0">
+                                            <div class="select-view"><span>PACE</span></div>
+
+                                            <div class="pace-dropdown">
+                                                <p data-value="0">PACE</p>
+                                                <p data-value="0.133">7m30s (~8km/h) ou +</p>
+                                                <p data-value="0.166">6m40s (~9,5km/h)</p>
+                                                <p data-value="0.183">6m00s (~10,5km/h)</p>
+                                                <p data-value="0.183">5m00s (~12km/h)</p>
+                                                <p data-value="0.183">4m00s (~14,5km/h) ou -</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row-calc">
+                                    <span class="c-label">TEMPO:</span>
+
+                                    <div class="inputs">
+                                        <input type="number" maxlength="2" class="time-input minutes" min="0" placeholder="HH"/>
+                                        <span class="spacer">:</span>
+                                        <input type="number" maxlength="2" class="time-input seconds" min="0" placeholder="MM"/>
+                                    </div>
+                                </div>
+
+                                <div class="row-calc">
+                                    <span class="c-label">PESO:</span>
+
+                                    <div class="inputs">
+                                        <input type="number" maxlength="2" class="full-input weight" min="0" placeholder="KG"/>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row-calc">
+                                <button class="submit-button"  data-track-category="calculadoras" data-track-event="calcular" data-track-label="calorias">CALCULAR</button>
+                            </div>
+                        </div>
+
+                        <div class="cell-calc cell-3 last">
+                            <span class="result-label">RESULTADO:</span>
+                            <p class="result-info"><span class="result-number">0000</span> <span class="result-type">Cal</span></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+       
+     
+	
+		</h3>
+
+		
+	</header>
+	                </aside>
+        </div>
+        
+    </main>
+
+    <footer>
+<div class="footer-background">
+        <div class="container__footer">
+            <div class="box__footer">
+                <div class="logo">
+                    <img src="./IMG/LOGO TRACTO PERFOMANCE.png" alt="">
+                </div>
+                <div class="terms">
+                    <p>Modelo de sistema para monitoramento de desempenho de atletas.</p>
+                </div>
+            </div>
+
+            <div class="box__footer">
+                <h2>Conheça mais sobre a Tracto!</h2>
+                <a href="https://gabrielnamura.github.io/tracto/SOBRE%20N%C3%93S/SOBRE%20N%C3%93S.html">Sobre Nós</a>
+                <a href="https://gabrielnamura.github.io/tracto/NOSSOS%20SERVI%C3%87OS/NOSSOS%20SERVI%C3%87OS.html">Nossos Serviços</a>
+                <a href="https://gabrielnamura.github.io/tracto/CONTATO/CONTATO.HTML">Contato</a>             
+            </div>
+
+            <div class="box__footer">
+                <h2>Redes Sociais</h2>
+                <a href="#"> <i class="fab fa-facebook-square"></i> Facebook</a>
+                <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
+                <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
+                <a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
+            </div>
+
+        </div>
+
+        <div class="box__copyright">
+            <hr>
+            <p>Todos os direitos reservados © 2024 <b>Tracto Tecnologias</b></p>
+        </div>
+    </div>
+    </footer>
+    
+        <script type="text/javascript">
+            var api_url = "https://suacorrida.com.br/wp-json/wp/v2/",
+                base_url = "https://suacorrida.com.br/",
+                base_url_api = "https://agenda.iguanasports.com.br/api/",
+                url_planilhas = "https://suacorrida.com.br/planilhas",
+                device = "desktop",
+                instagramUrl = "https://api.instagram.com/v1/users/374084249/media/recent/?access_token=374084249.8b66d45.17c2758f1dde495193aacb688dd3fefb&count=4";
+        </script>
+		<script type='text/javascript' src='https://suacorrida.com.br/wp-content/themes/basedigital/dist/js/main.min.js?ver=3.0.0'></script>
+<script type='text/javascript' src='https://d335luupugsy2.cloudfront.net/js/integration/stable/rd-js-integration.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?hl=pt-BR&#038;ver=1.0.0'></script>
+</body>
+</html>
